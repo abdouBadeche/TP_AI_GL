@@ -1,0 +1,28 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 1, E: 5)|Sucré\n|}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 2, E: 3)|Rouge\n|}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 8, E: 0)|Grand\n|}"];
+3 [shape=record,style=filled,fillcolor=orange,label="{3 (I: 3, E: 2)|Jaune\n|Banane\nOrange\n}"];
+4 [shape=record,style=filled,fillcolor=orange,label="{4 (I: 3, E: 2)|Vert\n|Pomme\nRaisin\n}"];
+5 [shape=record,style=filled,fillcolor=orange,label="{5 (I: 3, E: 2)|Petit\n|Cerise\nRaisin\n}"];
+6 [shape=record,style=filled,fillcolor=lightblue,label="{6 (I: 2, E: 3)|Moyen\n|}"];
+7 [shape=record,style=filled,fillcolor=orange,label="{7 (I: 3, E: 2)||Pomme\nCerise\n}"];
+8 [shape=record,style=filled,fillcolor=orange,label="{8 (I: 3, E: 2)||Pomme\nOrange\n}"];
+9 [shape=record,style=filled,fillcolor=lightblue,label="{9 (I: 2, E: 3)|Acide\n|}"];
+	1 -> 0
+	2 -> 3
+	2 -> 4
+	2 -> 5
+	2 -> 7
+	2 -> 8
+	3 -> 6
+	4 -> 1
+	5 -> 1
+	6 -> 0
+	7 -> 1
+	7 -> 9
+	8 -> 6
+	8 -> 9
+	9 -> 0
+}

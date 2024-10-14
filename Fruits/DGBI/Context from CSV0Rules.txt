@@ -1,0 +1,3 @@
+<0> Jaune,Moyen,Grand,Sucré,Acide => Rouge,Vert,Petit
+<0> Rouge,Vert,Petit,Moyen,Sucré,Acide => Jaune,Grand
+<0> Rouge,Jaune,Vert,Moyen,Sucré,Acide => Petit,Grand

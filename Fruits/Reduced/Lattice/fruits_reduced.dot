@@ -1,0 +1,43 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 1, E: 5)|Sucré\n|}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 2, E: 3)|Rouge\n|}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 8, E: 0)||}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 3, E: 2)|Jaune\n|}"];
+4 [shape=record,style=filled,fillcolor=lightblue,label="{4 (I: 3, E: 2)|Vert\n|}"];
+5 [shape=record,style=filled,label="{5 (I: 4, E: 1)||Raisin\n}"];
+6 [shape=record,style=filled,fillcolor=lightblue,label="{6 (I: 3, E: 2)|Petit\n|}"];
+7 [shape=record,style=filled,label="{7 (I: 5, E: 1)||Pomme\n}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{8 (I: 2, E: 3)|Moyen\n|}"];
+9 [shape=record,style=filled,label="{9 (I: 4, E: 1)|Grand\n|Banane\n}"];
+10 [shape=record,style=filled,label="{10 (I: 4, E: 1)||Cerise\n}"];
+11 [shape=record,style=filled,fillcolor=lightblue,label="{11 (I: 3, E: 2)||}"];
+12 [shape=record,style=filled,label="{12 (I: 4, E: 1)||Orange\n}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 3, E: 2)||}"];
+14 [shape=record,style=filled,fillcolor=lightblue,label="{14 (I: 2, E: 3)|Acide\n|}"];
+	1 -> 0
+	2 -> 5
+	2 -> 7
+	2 -> 9
+	2 -> 10
+	2 -> 12
+	3 -> 8
+	4 -> 1
+	5 -> 4
+	5 -> 6
+	6 -> 1
+	7 -> 4
+	7 -> 11
+	7 -> 13
+	8 -> 0
+	9 -> 3
+	10 -> 6
+	10 -> 11
+	11 -> 1
+	11 -> 14
+	12 -> 3
+	12 -> 13
+	13 -> 8
+	13 -> 14
+	14 -> 0
+}

@@ -1,0 +1,8 @@
+Sucré
+Rouge
+Moyen
+Acide
+Jaune
+Vert
+Petit
+Grand
