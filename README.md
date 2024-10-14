@@ -12,6 +12,17 @@ Le jeu de données utilisé est constitué de cinq fruits (Pomme, Banane, Cerise
 
 #### Tableau de Données
 
+
+| Fruit   | Rouge | Jaune | Vert | Petit | Moyen | Grand | Sucré | Acide |
+|---------|-------|-------|------|-------|-------|-------|-------|-------|
+| Pomme   | 1     | 0     | 1    | 0     | 1     | 0     | 1     | 1     |
+| Banane  | 0     | 1     | 0    | 0     | 1     | 1     | 1     | 0     |
+| Cerise  | 1     | 0     | 0    | 1     | 0     | 0     | 1     | 1     |
+| Raisin  | 1     | 0     | 1    | 1     | 0     | 0     | 1     | 0     |
+| Orange  | 0     | 1     | 0    | 0     | 1     | 0     | 1     | 1     |
+
+
+
 ```csv
 Fruit,Rouge,Jaune,Vert,Petit,Moyen,Grand,Sucré,Acide
 Pomme,1,0,1,0,1,0,1,1
@@ -114,6 +125,22 @@ Orange,0,1,0,0,1,0,1,1
 Pour l'analyse en trois dimensions, une troisième dimension "Rôles" a été ajoutée, représentant différents contextes d'utilisation des fruits.
 
 #### Structure du Jeu de Données
+
+
+
+| Fruit   | Attribut | Rôle    |
+|---------|----------|---------|
+| Pomme   | Rouge    | Snack   |
+| Pomme   | Sucré    | Dessert |
+| Banane  | Jaune    | Snack   |
+| Banane  | Sucré    | Dessert |
+| Cerise  | Rouge    | Dessert |
+| Cerise  | Sucré    | Juice   |
+| Raisin  | Vert     | Juice   |
+| Raisin  | Sucré    | Snack   |
+| Orange  | Jaune    | Juice   |
+| Orange  | Acide    | Juice   |
+
 
 ```csv
 Fruit,Rouge,Jaune,Vert,Petit,Moyen,Grand,Sucré,Acide,Snack,Dessert,Juice
